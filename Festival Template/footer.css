@@ -1,0 +1,105 @@
+.footer{
+    margin-top:60px; 
+     height:400px;  
+      width:100%;
+}
+.fh{
+    display:flex;  
+    height:90px;   
+    width:100%;  
+    align-items:center;
+    background-color:orangered;
+    justify-content:space-between; 
+    padding:0px 50px 0px 70px;
+}
+.fh>h1{
+    font-size:40px;  
+    font-weight:900;  
+    color:white;
+}
+.fh>p>i{
+    margin-right:20px; 
+    font-size:25px; 
+    color:white;
+}
+.f-content{
+    display:flex;  
+    height:250px;  
+    background-color:black;
+}
+.f-link{
+    width:40%;  
+    margin-left:5%;   
+    padding-top:30px;  
+    line-height:40px;
+}
+.f-link>p{
+    font-size:30px;  
+    color:yellow;   
+    font-weight:800;
+}
+.f-link>a{
+    margin-right:10px;  
+    font-size:20px;   
+    text-decoration:none;
+    color:rgb(142, 135, 135);
+}
+.f-query{
+    width:25%;   
+    padding-top:40px;   
+    line-height:35px;
+    color:rgb(142, 135, 135);  
+    font-size:18px;   
+    padding-left:110px;
+}
+.f-query>p:first-child{
+    font-size:30px;   
+    color:yellow;   
+    font-weight:800;
+}
+.f-loc{
+    width:25%;   
+    padding:40px 0px 0px 50px;   
+    line-height:35px;
+    color:rgb(142, 135, 135); 
+    font-size:18px;
+}
+.f-loc>h1{
+    font-size:30px;  
+    color:yellow;  
+    font-weight:800;
+}
+.f-loc>a{
+    font-size:25px;  
+    font-weight:800;   
+    color:white;
+}
+.ff{
+    font-size:20px;   
+    font-weight:700;   
+    justify-content:center;
+    color:rgb(142, 135, 135);   
+    background-color:black;
+    height:90px;   
+    display:flex;   
+    align-items:center;
+}
+
+
+@media only screen and (max-width:420px){
+    .fh, .f-content{
+        display:none;
+    }
+    .footer{
+        height:80px;
+    }
+    .ff{
+        height:100%;  
+        width:100%;   
+        margin:10px 0px; 
+    }
+    .ff>p{
+        font-size:18px;   
+        text-align:center;
+    }
+}

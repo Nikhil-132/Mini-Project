@@ -1,0 +1,124 @@
+.banner{
+    display:flex;  
+    height:500px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdlnWnFNmsINy2m9UmeP6DgiBIZrn5mPmeqg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.banner-text{
+    height:430px; 
+    margin:35px 0px 35px 35px; 
+    padding:20px;
+}
+.banner-text>h1{
+    font-size:35px; 
+    margin:10px 0px 10px 70px; 
+    font-weight:800;
+}
+.banner-text>p{
+    font-size:18px; 
+    margin:10px 0px 15px 70px;
+}
+.banner-image>img{
+    height:420px; 
+    width:600px; 
+    border-radius:15px;  
+    margin:40px ;
+}
+.image-content{
+    background-color: whitesmoke; 
+    opacity:0.6; 
+    display:flex;
+    height:150px; 
+    width:520px; 
+    position:absolute; 
+    top:270px;
+    left:80px; 
+    border-radius:20px;
+}
+.banner-image{
+    position:relative;
+}
+.icon{
+    margin-top:40px;  
+    box-sizing: border-box; 
+    width:60px;
+    height:63px;  
+    margin-left:65px;
+}
+.icon>i{
+    font-size:30px; 
+    background-color: gold; 
+    padding:15px; 
+    border-radius:50%; 
+}
+.text>span{
+    font-size:30px;  
+    font-weight:900;  
+    display:inline-block;
+    margin:40px 0px 0px 20px;  
+    height:40px;  
+    width:300px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.text>p{
+    font-size:20px; 
+    margin-left:20px; 
+    color:gray;
+}
+
+
+@media only screen and (max-width:420px){
+    #about{
+        height:400px;  
+        width:100%;   
+        position:relative;
+    }
+    .banner-text{
+        height:100%;   
+        width:100%;  
+        margin:0;  
+        padding:5px; 
+    }
+    .banner-text>h1{
+        font-size:30px;   
+        margin:10px 0px 10px 20px;
+    }
+    .banner-text>p{
+        font-size:20px;   
+        margin:10px 0px 10px 20px;
+    }
+    .banner-image{
+       position:absolute;   
+       top:400px;   
+       left:0px;  
+    }
+    .banner-image>img{
+        display:flex;   
+        height:280px;   
+        width:380px; 
+        margin:20px;  
+        position:relative;
+    }
+    .image-content{
+        height:150px;   
+        width:330px;  
+        position:absolute;
+        top:40%;   
+        left:10%;  
+    }
+    .icon{
+        margin:25px 0px 0px 20px; 
+    }
+    .icon>i{
+        font-size:15px;  
+    }
+    .text>span{
+        margin-top:25px;  
+        font-size:22px;
+    }
+    .text>p{
+        font-size:20px;   
+        width:180px;  
+    }
+}
