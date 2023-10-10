@@ -17,7 +17,7 @@
 }
 .banner-text>p{
     font-size:18px; 
-    margin:10px 0px 15px 70px;
+    margin:10px 0px 10px 70px;
 }
 .banner-image>img{
     height:420px; 
@@ -68,7 +68,7 @@
 }
 
 
-@media only screen and (max-width:420px){
+@media only screen and (max-width:420px) and (min-width:320px){
     #about{
         height:400px;  
         width:100%;   
@@ -120,5 +120,63 @@
     .text>p{
         font-size:20px;   
         width:180px;  
+    }
+}
+
+
+@media only screen and (max-width:760px) and (min-width:421px){
+    #about{
+        height:700px;  
+        width:100%;   
+        position:relative;
+    }
+    .banner-text{
+        height:100%;   
+        width:100%;  
+        margin:0;  
+        padding:5px; 
+    }
+    .banner-text>h1{
+        font-size:40px;
+        text-align: center;   
+        margin:10px 0px 10px 10px;
+    }
+    .banner-text>p{
+        font-size:25px;
+        text-align: center;    
+        margin:10px 0px 10px 10px;
+    }
+    .banner-image{
+       position:absolute;   
+       top:380px;   
+       left:170px;  
+    }
+    .banner-image>img{
+        display:flex;   
+        height:250px;   
+        width:380px; 
+        margin:20px;  
+        position:relative;
+    }
+    .image-content{
+        height:150px;   
+        width:330px;  
+        position:absolute;
+        top:30%;   
+        left:10%;  
+    }
+    .icon{
+        margin:25px 0px 0px 20px; 
+    }
+    .icon>i{
+        font-size:22px;  
+    }
+    .text>span{
+        margin-top:25px;  
+        font-size:28px;
+    }
+    .text>p{
+        font-size:23px;   
+        width:230px; 
     }
 }

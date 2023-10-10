@@ -8,6 +8,10 @@
     width:100%; 
     position:relative;
 }
+.video-content>h3{
+    font-size:30px;
+    color:white;
+}
 .video-content>p>a{
     text-decoration: none; 
     font-size:23px; 
@@ -34,7 +38,7 @@
 .video-content{
     display:flex; 
     justify-content:space-around; 
-     width:100%;
+    width:100%;
     position:absolute;  
     top:30px; 
     left:38px;
@@ -92,7 +96,7 @@
     margin-left:5px;
 }
 
-@media only screen and (max-width:420px){
+@media only screen and (max-width:420px) and (min-width:320px){
     .video-content{
         display:none;
     }
@@ -117,8 +121,8 @@
     }
     .video-footer{
         position:absolute;   
-        top:220px;   
-        left:10px;
+        top:240px;   
+        left:0px;
     }
     .video-footer>p>span, .video-footer>p>i{
         font-size:15px;   
@@ -126,5 +130,48 @@
     }
     #icon{
         display:none;
+    }
+}
+
+
+@media only screen and (max-width:760px) and (min-width:421px){
+    .video>video{
+        height:450px;  
+        width:100%;
+    }
+    .video-content>h3, .video-content>button{
+        display:none;
+    }
+    .video-content>p>a{
+        padding-right:10px;
+    }
+    .video-content{
+        display:flex;
+        position:absolute;
+        top:20px;
+        left:0;
+    }
+    .video-heading{
+        position:absolute;   
+        top:120px;  
+        left:0px;
+    }
+    .video-heading>p{
+        font-size:28px;
+        color:black;
+        margin-bottom:10px;
+    }
+    .video-heading>h1{
+        font-size:60px;
+    }
+    .video-heading>button{
+        margin:15px 0px 0px 40%;
+    }
+    .video-footer{
+        position:absolute;
+        top:365px;
+    }
+    .video-footer>p>span{
+        font-size:20px;
     }
 }

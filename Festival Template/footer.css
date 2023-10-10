@@ -33,7 +33,7 @@
     padding-top:30px;  
     line-height:40px;
 }
-.f-link>p{
+.f-link>h1{
     font-size:30px;  
     color:yellow;   
     font-weight:800;
@@ -52,7 +52,7 @@
     font-size:18px;   
     padding-left:110px;
 }
-.f-query>p:first-child{
+.f-query>h1{
     font-size:30px;   
     color:yellow;   
     font-weight:800;
@@ -86,7 +86,7 @@
 }
 
 
-@media only screen and (max-width:420px){
+@media only screen and (max-width:420px) and (min-width:320px){
     .fh, .f-content{
         display:none;
     }
@@ -97,6 +97,62 @@
         height:100%;  
         width:100%;   
         margin:10px 0px; 
+    }
+    .ff>p{
+        font-size:18px;   
+        text-align:center;
+    }
+}
+
+
+@media only screen and (max-width:760px) and (min-width:421px){
+    .footer{
+        height:300px;
+    }
+    .fh{
+        height:70px;  
+        width:100%; 
+        padding:0px 30px 0px 35px;   
+    }
+    .fh>h1{
+        font-size:30px;
+    }
+    .f-link{
+        width:200px;  
+        margin-left:50px;
+    }
+    .f-link>h1{
+        font-size:25px;
+    }
+    .f-query{   
+        padding-top:30px;   
+        line-height:35px;
+        color:rgb(142, 135, 135);  
+        font-size:18px;   
+        padding-left:50px;
+        width:250px;
+    }
+    .f-query>h1{
+        font-size:25px;   
+        color:yellow;   
+        font-weight:800;
+    }
+    .f-loc{
+        width:30%;   
+        padding:30px 0px 0px 50px;   
+        line-height:35px;
+        color:rgb(142, 135, 135); 
+        font-size:18px;
+    }
+    .f-loc>h1{
+        font-size:25px;  
+        color:yellow;  
+        font-weight:800;
+    }
+    .f-loc>a{
+        font-size:20px;  
+        font-weight:800;   
+        color:white;
     }
     .ff>p{
         font-size:18px;   
