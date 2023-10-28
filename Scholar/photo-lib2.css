@@ -1,0 +1,138 @@
+.photo-lib2{
+    height:300px;
+    margin-top:30px;
+    display:flex;
+    justify-content: space-evenly;
+    position:relative;
+    overflow:hidden;
+}
+.photo1>img, .photo2>img, .photo3>img{
+    height:200px;
+    width:300px;
+    border-radius:20px;
+}
+.photo1>p{
+    position:absolute;
+    top:10px;
+    left:160px;
+    font-weight:700;
+    font-size:16px;
+    color:rgb(125, 125, 230);
+    padding:5px 8px;
+    background-color:rgb(228, 228, 234);
+    width:100px;
+    border-radius:15px;
+}
+.photo1>span{
+    position:absolute;
+    top:0px;
+    left:351px;
+    color:white;
+    font-weight:800;
+    background-color:rgb(125, 125, 230);
+    padding:15px 19px 15px 20px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 20px;
+    font-size:20px;
+}
+.photo-c{
+    position:absolute;
+    top:190px;
+    left:135px;
+    height:90px;
+    width:280px;
+    background-color:rgb(228, 228, 234);
+    padding-left:20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.photo-c>p, .photo-c1>p, .photo-c2>p{
+    color:rgb(125, 125, 230);
+    font-weight:700;
+    font-size:16px;
+    margin-bottom:0;
+}
+.photo-c>h3, .photo-c1>h3, .photo-c2>h3{
+    font-size:20px;
+    margin-top:15px;
+}
+.photo2{
+    position:relative;
+}
+.photo2>p{
+    position:absolute;
+    top:10px;
+    left:30px;
+    font-weight:700;
+    font-size:16px;
+    color:rgb(125, 125, 230);
+    padding:5px 8px;
+    background-color:rgb(228, 228, 234);
+    width:100px;
+    border-radius:15px;
+}
+.photo2>span{
+    position:absolute;
+    top:0px;
+    left:216px;
+    color:white;
+    font-weight:800;
+    background-color:rgb(125, 125, 230);
+    padding:15px 19px 15px 20px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 20px;
+    font-size:20px;
+}
+.photo-c1{
+    position:absolute;
+    top:190px;
+    height:90px;
+    width:280px;
+    background-color:rgb(228, 228, 234);
+    padding-left:20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.photo3{
+    position:relative;
+}
+.photo3>p{
+    position:absolute;
+    top:10px;
+    left:30px;
+    font-weight:700;
+    font-size:17px;
+    color:rgb(125, 125, 230);
+    padding:5px 8px;
+    background-color:rgb(228, 228, 234);
+    width:100px;
+    border-radius:15px;
+}
+.photo3>span{
+    position:absolute;
+    top:0px;
+    left:216px;
+    color:white;
+    font-weight:800;
+    background-color:rgb(125, 125, 230);
+    padding:15px 19px 15px 20px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 20px;
+    font-size:20px;
+}
+.photo-c2{
+    position:absolute;
+    top:190px;
+    height:90px;
+    width:280px;
+    background-color:rgb(228, 228, 234);
+    padding-left:20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

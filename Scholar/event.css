@@ -1,0 +1,125 @@
+.events{
+    margin-top:50px;
+    height:800px;
+    width:100%;
+    position:relative;
+}
+.events>p{
+    color:rgb(125, 125, 230);
+    text-align:center;
+    font-size:18px;
+}
+.events>h2{
+    font-family:monospace;
+    font-size:30px;
+    text-align:center;
+}
+.slide1>img{ 
+    height:200px;
+    width:270px;
+    border-radius:18px;
+    position:absolute;
+    top:8rem;
+    left:4rem;
+}
+.slide2>img{
+    height:200px;
+    width:270px;
+    border-radius:18px;
+    position:absolute;
+    top:22rem;
+    left:4rem;
+}
+.slide3>img{
+    height:200px;
+    width:270px;
+    border-radius:18px;
+    position:absolute;
+    top:37rem;
+    left:4rem;
+}
+.slide1, .slide2, .slide3{
+    margin-top:60px;
+    padding-top:0px;
+    padding-left:400px;
+    display:flex;
+    justify-content: space-evenly;
+    height:170px;
+    width:72%;
+    background-color:rgb(228, 228, 234);
+    border-radius:20px;
+}
+.slide11, .slide21, .slide31{
+    padding-top:40px;
+}
+.slide11>button, .slide21>button, .slide31>button{
+    background-color: white;
+    color:rgb(125, 125, 230);
+    border-radius:20px;
+    height:40px;
+    width:120px;
+    margin-left:30px;
+    border-color:transparent;
+} 
+.slide1>ul>li, .slide2>ul>li, .slide3>ul>li{
+    list-style: none;
+    font-size:18px;
+    font-weight:600;
+}
+.slide1>ul>li:nth-last-child(1), .slide2>ul>li:nth-last-child(1),  .slide3>ul>li:nth-last-child(1){
+    color:rgb(125, 125, 230);
+}
+.slide1>ul, .slide2>ul, .slide3>ul{
+    line-height:48px;
+    margin-top:2.5rem;
+    height:90px;
+    width:100px;
+}
+.slide1>i{
+    position:absolute;
+    top:142px;
+    left:94%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    height:128px;
+    width:50px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    color:white;
+    font-size:18px;
+    padding:20px;
+    background-color:rgb(125, 125, 230);
+}
+.slide2>i{
+    position:absolute;
+    top:373px;
+    left:94%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    height:128px;
+    width:50px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    color:white;
+    font-size:18px;
+    padding:20px;
+    background-color:rgb(125, 125, 230);
+}
+.slide3>i{
+    position:absolute;
+    top:75%;
+    left:94%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    height:128px;
+    width:50px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    color:white;
+    font-size:18px;
+    padding:20px;
+    background-color:rgb(125, 125, 230);
+}

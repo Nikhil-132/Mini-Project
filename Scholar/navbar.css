@@ -1,0 +1,75 @@
+
+.navbar{
+    display:flex;
+    justify-content: space-evenly;
+}
+.navbar>h1{
+    color:white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    font-size:35px;
+    margin-top:15px;
+    padding:0;
+}
+.navbar>span{
+    font-size:40px;
+    color:white;
+    margin-top:15px;
+    opacity:0.4;
+    font-weight:lighter;
+}
+.searchbox{
+    align-items:center;
+    display:flex;
+    width:14%;
+    padding-right:20px;
+    height:35px;
+    border-radius:20px;
+    background-color:rgb(146, 146, 231);
+    backdrop-filter: blur(1px);
+    margin:20px 0px 0px 25px;
+}
+.searchbox>input{
+    height:20px;
+    font-size:15px;
+    border-radius:20px;
+    padding:8px 15px 8px 25px;
+    width:130px;
+    border-color: transparent;
+     background-color: transparent; 
+}
+.searchbox>i{
+    color:white;
+    font-size:20px;
+}
+.searchbox>input:hover{
+    border-color: transparent;
+    outline:none;
+}
+.link>ul>li , .link>ul>li>a{
+    list-style: none;
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+    padding:5px 12px;
+    border-radius:20px;
+    margin-right:5px;
+}
+.link{
+    margin-left:150px;
+    margin-top:5px;
+}
+.link>ul{
+    display: flex;
+}
+.link>ul>li:first-child{
+    background-color:rgb(146, 146, 231);
+    backdrop-filter: blur(1px);
+}
+.link>ul>li:hover{
+    background-color:rgb(146, 146, 231);
+    backdrop-filter: blur(1px);
+}
+.link>ul>li:first-child:hover{
+    background-color:transparent;  
+}
