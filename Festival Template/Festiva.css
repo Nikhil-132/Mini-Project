@@ -4,9 +4,10 @@
     box-sizing:border-box;
 }
 .up-box{
+    width:100%;
     background-color: gold; 
     height:60px; 
-    padding:15px 0px 15px 120px;
+    padding:15px 0px 15px 85px;
 }
 .up-box>p{
     font-size:20px;  

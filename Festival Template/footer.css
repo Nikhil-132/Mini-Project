@@ -40,17 +40,24 @@
 }
 .f-link>a{
     margin-right:10px;  
-    font-size:20px;   
+    font-size:22px; 
+    font-weight:700;  
     text-decoration:none;
     color:rgb(142, 135, 135);
+}
+.f-link>a:hover, .f-query>p:hover, .f-loc>p:hover{
+    color:crimson;
 }
 .f-query{
     width:25%;   
     padding-top:40px;   
     line-height:35px;
+    padding-left:90px;
+}
+.f-query>p{
     color:rgb(142, 135, 135);  
-    font-size:18px;   
-    padding-left:110px;
+    font-size:22px;
+    font-weight:700;   
 }
 .f-query>h1{
     font-size:30px;   
@@ -62,7 +69,8 @@
     padding:40px 0px 0px 50px;   
     line-height:35px;
     color:rgb(142, 135, 135); 
-    font-size:18px;
+    font-size:22px;
+    font-weight:700;
 }
 .f-loc>h1{
     font-size:30px;  
